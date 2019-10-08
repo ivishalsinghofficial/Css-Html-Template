@@ -1,0 +1,189 @@
+/* Big Tablet and Laptop */
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+}
+
+/* Tablets in Portrait and landscape or similar devices */
+@media only screen and (max-width: 1023px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .app-screen {
+        padding-top: 12%;
+    }
+
+    .img-city {
+        height: 180px;
+        width: 180px;
+        padding-right: 5%;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 20px;
+
+    }
+
+    .section-cities {
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .section-customers {
+        color: #fff;
+        padding: 60px;
+    }
+
+    .footer-icon li {
+        font-size: 160%;
+        margin-left: 15px;
+    }
+
+    .footer-nav li {
+        font-size: 90%;
+        margin-right: 10px;
+        padding-top: 8px;
+    }
+
+
+}
+
+/* Iphone to small tablet*/
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+
+    .row,
+    hero-text-box {
+        width: 100%;
+    }
+
+
+    .main-nav li {
+        display: none;
+    }
+
+    .box p {
+        line-height: 145%;
+        font-size: 80%;
+    }
+
+    .img-city {
+        height: 250px;
+        width: 70%;
+        padding-right: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .ul-showcase li img {
+        opacity: 0.7;
+        height: 120px;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .app-screen {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-steps div {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .work-steps {
+        margin-bottom: 40px;
+        vertical-align: middle;
+    }
+
+
+    section {
+        padding-bottom: 40px;
+    }
+
+    .long-copy {
+        line-height: 145%;
+        width: 100%;
+    }
+
+    .section-cities .col {
+        text-align: center;
+
+    }
+
+    .section-cities .col h3 {
+        margin-top: 20px;
+        font-size: 120%;
+        letter-spacing: 5px;
+    }
+
+    .city-feature {
+        font-size: 110%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    cite {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .footer-icon li {
+        display: inline-block;
+        float: left;
+        font-size: 160%;
+        margin-left: 30px;
+    }
+
+
+}
+
+/* Small devices or Iphone. From 0 px to width of 480px*/
+@media only screen and (max-width: 480px) {
+    section {
+        padding-bottom: 30px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+.hero-text-box .btn {
+    margin-right: 5px;
+}
